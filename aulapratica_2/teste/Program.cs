@@ -1,15 +1,23 @@
-﻿Panda a = new Panda();
-Panda b = new Panda();
-a.Marry(b);
-//Console.WriteLine(new Panda().Marry(new Panda()));
+﻿var stock = new Stock { CurrentPrice = 50, SharesOwned = 100 };
 
-public class Panda
+Console.WriteLine(stock.Worth);           // 5000
+
+public class Stock
 {
-  public Panda Mate;
-
-  public void Marry(Panda partner)
+  decimal currentPrice;           // Atributo privado
+  public decimal CurrentPrice     // Propriedade pública
   {
-    Mate = partner;
-    partner.Mate = this;        // Atribui o próprio objeto
+    get { return currentPrice; } set { currentPrice = value; }
+  }
+
+  decimal sharesOwned;           // Atributo privado
+  public decimal SharesOwned     // Propriedade pública
+  {
+    get { return sharesOwned; } set { sharesOwned = value; }
+  }
+
+  public decimal Worth          // Propriedade calculada
+  {
+    get { return currentPrice * sharesOwned; }
   }
 }
