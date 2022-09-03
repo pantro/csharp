@@ -1,4 +1,14 @@
-﻿Console.WriteLine(Foo1(10) == Foo2(10));    // True
+﻿Octopus o = new Octopus();
 
-int Foo1(int x) { return x * 2; }
-int Foo2(int x) => x * 2; 
+o.Foo(123);         // int
+o.Foo(123.0);       // double
+o.Foo(123, 123F);   // int, float
+o.Foo(123F, 123);   // float, int
+
+class Octopus
+{
+    public void Foo(int x)         { Console.WriteLine("int"); }
+    public void Foo(double x)      { Console.WriteLine("double"); }
+    public void Foo(int x, float y) { Console.WriteLine("int, float"); }
+    public void Foo(float x, int y) { Console.WriteLine("float, int"); }
+}
