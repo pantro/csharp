@@ -1,0 +1,15 @@
+C:\Users\msft24\csharp\aulapratica_2\teste\bin\Debug\net6.0\teste.exe
+c:\Users\msft24\csharp\aulapratica_2\teste\bin\Debug\net6.0\teste.deps.json
+c:\Users\msft24\csharp\aulapratica_2\teste\bin\Debug\net6.0\teste.runtimeconfig.json
+C:\Users\msft24\csharp\aulapratica_2\teste\bin\Debug\net6.0\teste.dll
+C:\Users\msft24\csharp\aulapratica_2\teste\bin\Debug\net6.0\teste.pdb
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.csproj.AssemblyReference.cache
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.AssemblyInfoInputs.cache
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.AssemblyInfo.cs
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.csproj.CoreCompileInputs.cache
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.dll
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\refint\teste.dll
+C:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.pdb
+c:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\teste.genruntimeconfig.cache
+c:\Users\msft24\csharp\aulapratica_2\teste\obj\Debug\net6.0\ref\teste.dll
