@@ -1,11 +1,13 @@
-﻿Panda p = new Panda("Petey");   // Chamada de construtor
-Console.WriteLine(p.name);
+﻿Class1 c1 = Class1.Create();  // OK
+Class1 c2 = new Class1();    // Erro: Não irá compilar
 
-public class Panda
+public class Class1
 {
-  public string name;                 
-  public Panda(string n)        // Definição do Construtor: observe que o método não tem um tipo de retorno
+  Class1() { }        // Construtor privado
+  
+  public static Class1 Create()
   {
-    name = n;                   // Código de inicialização da variável name 
+    // Execução de alguma lógica para configurar a instanciação da classe Class1
+    return new Class1();
   }
 }
