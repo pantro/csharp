@@ -1,15 +1,4 @@
-﻿var o = new Octopus("Jack");
+﻿Console.WriteLine(Foo1(10) == Foo2(10));    // True
 
-Console.WriteLine(o.Name);  // Jack  
-o.Legs = 20;                // Erro de compilação
-
-class Octopus
-{
-  public readonly string Name;
-  public readonly int Legs = 8;
-  
-  public Octopus(string name)
-  {
-    Name = name;
-  }
-}
+int Foo1(int x) { return x * 2; }
+int Foo2(int x) => x * 2; 

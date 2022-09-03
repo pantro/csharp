@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj": {}
+    "c:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj": {
+    "c:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj",
+        "projectUniqueName": "c:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj",
         "projectName": "teste",
-        "projectPath": "C:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj",
+        "projectPath": "c:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\teste.csproj",
         "packagesPath": "C:\\Users\\msft24\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\obj\\",
+        "outputPath": "c:\\Users\\msft24\\csharp\\aulapratica_2\\teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msft24\\AppData\\Roaming\\NuGet\\NuGet.Config"
