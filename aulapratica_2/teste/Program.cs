@@ -1,14 +1,11 @@
-﻿Octopus o = new Octopus();
+﻿Panda p = new Panda("Petey");   // Chamada de construtor
+Console.WriteLine(p.name);
 
-o.Foo(123);         // int
-o.Foo(123.0);       // double
-o.Foo(123, 123F);   // int, float
-o.Foo(123F, 123);   // float, int
-
-class Octopus
+public class Panda
 {
-    public void Foo(int x)         { Console.WriteLine("int"); }
-    public void Foo(double x)      { Console.WriteLine("double"); }
-    public void Foo(int x, float y) { Console.WriteLine("int, float"); }
-    public void Foo(float x, int y) { Console.WriteLine("float, int"); }
+  public string name;                 
+  public Panda(string n)        // Definição do Construtor: observe que o método não tem um tipo de retorno
+  {
+    name = n;                   // Código de inicialização da variável name 
+  }
 }
