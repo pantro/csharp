@@ -1,13 +1,34 @@
-﻿Class1 c1 = Class1.Create();  // OK
-Class1 c2 = new Class1();    // Erro: Não irá compilar
+﻿var rect = new Rectangle(3, 4);              // Criação de objeto do tipo Rectangle
 
-public class Class1
+(float width, float height) = rect;            // Desconstrução
+Console.WriteLine(width + " " + height);    // 3 4
+
+// O uso de tipagem implícita é usada com a palavra-chave var:  
+var (x, y) = rect;                           // Desconstrução
+Console.WriteLine(x + " " + y);
+
+// Se as variáveis já foram declaradas, podemos apenas chamar o desconstrutor
+(x, y) = rect; 
+Console.WriteLine(x + " " + y);
+
+// A partir do C#, é permitido o uso de sintaxe mista
+double x1 = 0;
+(x1, double y2) = rect;
+Console.WriteLine(x + " " + y);
+
+class Rectangle
 {
-  Class1() { }        // Construtor privado
-  
-  public static Class1 Create()
+  public readonly float Width, Height;
+
+  public Rectangle(float width, float height)
   {
-    // Execução de alguma lógica para configurar a instanciação da classe Class1
-    return new Class1();
+    Width = width;
+    Height = height;
+  }
+
+  public void Deconstruct(out float width, out float height)    // Declaração do método desconstrutor
+  {
+    width = Width;
+    height = Height;
   }
 }
